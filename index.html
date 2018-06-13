@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Soone Team">
+    <link rel="icon" href="img/favicon.ico">
+
+    <title>Soone</title>
+
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="css/animate.min.css" rel="stylesheet">
+
+    <link href="css/jasny-bootstrap.min.css" rel="stylesheet">
+
+
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body id="page-top">
+<div class="navbar-wrapper">
+        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container">
+                <div class="navbar-header page-scroll">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">SOONE</a>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a class="page-scroll" href="#" data-toggle="modal" data-target="#modalPhone" ><i class="fa fa-download"></i> Télécharger</a></li>
+                        <li><a class="page-scroll" href="#page-top">Accueil</a></li>
+                        <li><a class="page-scroll" href="#features">Fonctionnalités</a></li>
+                        <li><a class="page-scroll" href="#team">Equipe</a></li>
+                        <li><a class="page-scroll" href="#historique">Historique</a></li>
+                        <li><a class="page-scroll" href="#avis">Avis</a></li>
+                        <li><a class="page-scroll" href="#prix">Tarifs</a></li>
+                        <li><a class="page-scroll" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+</div>
+
+<div class="modal inmodal fade" id="modalPhone" tabindex="-1" role="dialog"  aria-hidden="true">
+    <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title">N° de téléphone</h4>
+            </div>
+            <div class="modal-body">
+                <p>Afin de recevoir le lien ver l'application, merci de renseigner votre numéro de téléphone</p>
+                <input type="text" class="form-control" data-mask="99 99 99 99 99" placeholder="">
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" class="btn btn-white" data-dismiss="modal" onclick="window.location.href='.'">Fermer</button>
+                <button type="button" class="btn btn-primary">Envoyer</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="inSlider" class="carousel carousel-fade" data-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-target="#inSlider" data-slide-to="0" class="active"></li>
+        <li data-target="#inSlider" data-slide-to="1"></li>
+    </ol>
+    <div class="carousel-inner" role="listbox">
+        <div class="item active">
+            <div class="container">
+                <div class="carousel-caption">
+                    <h1>Pour une soirée<br/>
+                        Ou pour la vie<br/>
+                        Soone<br/>
+                    </h1>
+                    <p>Incubateur de rencontre.</p>
+                    <p>
+                        <a class="btn btn-lg btn-primary" href="#" role="button">READ MORE</a>
+                    </p>
+                </div>
+                <div class="carousel-image wow zoomIn">
+                    <img src="img/phone.png" alt="phone"/>
+                </div>
+            </div>
+            <!-- Set background for slide in css -->
+            <div class="header-back one"></div>
+
+        </div>
+        <div class="item">
+            <div class="container">
+                <div class="carousel-caption blank">
+                    <h1> <br/> Soon In Love</h1>
+                    <p>Le speed dating au goût du jour.</p>
+                    <p>
+                        <a class="btn btn-lg btn-primary" href="#" role="button">READ MORE</a>
+                    </p>
+                </div>
+            </div>
+            <!-- Set background for slide in css -->
+            <div class="header-back two"></div>
+        </div>
+    </div>
+    <a class="left carousel-control" href="#inSlider" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#inSlider" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
+
+
+<section id="features" class="container features">
+    <div class="row">
+        <div class="col-lg-12 text-center">
+            <div class="sooneColor-line"></div>
+            <h1>Déja plus de 5 utilisateurs<br/> <span class="sooneColor"> Rejoignez-nous!</span> </h1>
+            <p>Répartis dans la France entière, vous trouverez forcement quelqu'un près de chez vous. </p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-3 text-center wow fadeInLeft">
+            <div>
+                <i class="fa fa-mobile features-icon"></i>
+                <h2>Application mobile</h2>
+                <p>Rapide et ergonomique, chattez où vous voulez, quand vous voulez depuis votre smartphone.</p>
+            </div>
+            <div class="m-t-lg">
+                <i class="fa fa-gears features-icon"></i>
+                <h2>Un algorithme surpuissant</h2>
+                <p>Vous proposera des profils qui vous correspondent, en un temps record.</p>
+            </div>
+        </div>
+        <div class="col-md-6 text-center  wow zoomIn">
+            <img src="img/perspective.png" alt="dashboard" class="img-responsive">
+        </div>
+        <div class="col-md-3 text-center wow fadeInRight">
+            <div>
+                <i class="fa fa-weixin features-icon"></i>
+                <h2>La messagerie instantanée</h2>
+                <p>Simple mais incroyablement éfficace, le chat possède une interface intuitive afin de vous puissiez vous concentrer sur l'essentiel.</p>
+            </div>
+            <div class="m-t-lg">
+                <i class="fa fa-sliders features-icon"></i>
+                <h2>Un exeperience paramétrable</h2>
+                <p>Grace à sa multitude d'option vous pouvez créer une experience unique qui vous resemble.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="team" class="gray-section team">
+    <div class="container">
+        <div class="row m-b-lg">
+            <div class="col-lg-12 text-center">
+                <div class="sooneColor-line"></div>
+                <h1>Qui somme-nous?</h1>
+                <p>Six jeunes ingénieur de l'école des mines d'alès.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-2 wow fadeInLeft">
+                <div class="team-member">
+                    <img src="img/avatar4.jpg" class="img-responsive img-circle" alt="">
+                    <h4><span class="sooneColor">Scott</span> RAYAPOULLE</h4>
+                    <p>Front End developer<br/>
+                        UX developer</p>
+                </div>
+            </div>
+            <div class="col-sm-2 wow fadeInLeft">
+                <div class="team-member">
+                    <img src="img/avatar6.jpg" class="img-responsive img-circle" alt="">
+                    <h4><span class="sooneColor">Nans</span> POIROT</h4>
+                    <p>Back End developer<br/>
+                        Database developer</p>
+                </div>
+            </div>
+            <div class="col-sm-2 wow zoomIn">
+                <div class="team-member">
+                    <img src="img/avatar5.jpg" class="img-responsive img-circle" alt="">
+                    <h4><span class="sooneColor">Loïc</span> PETIT</h4>
+                    <p>Back End developer<br/>
+                        Team Leader</p>
+                </div>
+            </div>
+            <div class="col-sm-2 wow zoomIn">
+                <div class="team-member">
+                    <img src="img/avatar9.jpg" class="img-responsive img-circle" alt="">
+                    <h4><span class="sooneColor">Matthis</span> LAFFONT</h4>
+                    <p>Web developer<br/>
+                        Back End developer</p>
+                </div>
+            </div>
+            <div class="col-sm-2 wow fadeInRight">
+                <div class="team-member">
+                    <img src="img/avatar8.jpg" class="img-responsive img-circle" alt="">
+                    <h4><span class="sooneColor">Germain</span> MATHIEU</h4>
+                    <p>CEO<br/>
+                        Sysadmin</p>
+                </div>
+            </div>
+            <div class="col-sm-2 wow fadeInRight">
+                <div class="team-member">
+                    <img src="img/avatar2.jpg" class="img-responsive img-circle" alt="">
+                    <h4><span class="sooneColor">Hugo</span> SERENI</h4>
+                    <p>Sysadmin<br/>
+                        Database Administrator</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section id="historique" class="timeline">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <div class="sooneColor-line"></div>
+                <h1>Notre histoire</h1>
+                <p>Un petit rappel des fait marquant de la vie de l'application</p>
+            </div>
+        </div>
+        <div class="row features-block">
+
+            <div class="col-lg-12">
+                <div id="vertical-timeline" class="vertical-container light-timeline center-orientation">
+                    <div class="vertical-timeline-block">
+                        <div class="vertical-timeline-icon sooneColor-bg">
+                            <i class="fa fa-users"></i>
+                        </div>
+
+                        <div class="vertical-timeline-content">
+                            <h2>Lancement de Soone</h2>
+                            <p>L'application devient officiellement disponible.</p>
+                            <span class="vertical-date"> 2018 <br/> <small>18 Aout</small> </span>
+                        </div>
+                    </div>
+
+                    <div class="vertical-timeline-block">
+                        <div class="vertical-timeline-icon sooneColor-bg">
+                            <i class="fa fa-envelope"></i>
+                        </div>
+
+                        <div class="vertical-timeline-content">
+                            <h2>Campagne d'invitation</h2>
+                            <p>Lancement de la campagne promotionnelle d'un mois.Debut des phases de pré-inscription</p>
+                            <span class="vertical-date"> 2018 <br/> <small>Juillet</small> </span>
+                        </div>
+                    </div>
+
+                    <div class="vertical-timeline-block">
+                        <div class="vertical-timeline-icon sooneColor-bg">
+                            <i class="fa fa-android"></i>
+                        </div>
+
+                        <div class="vertical-timeline-content">
+                            <h2>Developpement de Soone</h2>
+                            <p>Debut du developpement de l'application Soone, pour smartphone Android.</p>
+                            <span class="vertical-date"> 2018 <br/> <small>Juin</small> </span>
+                        </div>
+                    </div>
+
+                    <div class="vertical-timeline-block">
+                        <div class="vertical-timeline-icon sooneColor-bg">
+                            <i class="fa fa-birthday-cake"></i>
+                        </div>
+
+                        <div class="vertical-timeline-content">
+                            <h2>Création de Soone Corp</h2>
+                            <p>Création de l'entreprise Soone Corp à Alès.<br/>Effectif initial : 6</p>
+                            <span class="vertical-date"> 2018 <br/> <small>2 Juin</small> </span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</section>
+
+<section id="avis" class="sooneColor-section testimonials" style="margin-top: 0">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center wow zoomIn">
+                <i class="fa fa-comment big-icon"></i>
+                <h1>
+                    Avis d'utilisateur
+                </h1>
+                <div class="testimonials-text">
+                    <i>"Avant j'utilisais Ti***r et Me***c, mais je m'y retrouvais pas. Soone a un concept simple basé sur un principe plus axé sur l'humain et le relationnel."</i>
+                </div>
+                <small>
+                    <strong>25.08.2018 - Alice Clefs</strong>
+                </small>
+            </div>
+        </div>
+    </div>
+
+</section>
+<section class="comments gray-section" style="margin-top: 0">
+    <div class="container">
+        <div class="row features-block">
+            <div class="col-lg-4">
+                <div class="bubble">
+                    "Des rencontres magiques!"
+                </div>
+                <div class="comments-avatar">
+                    <div class="media-body">
+                        <div class="commens-name">
+                            Henry Le Pottier
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4">
+                <div class="bubble">
+                    "J'avais arreté les site de rencontre à cause de relations toxiques, mais j'y suis retourné, one more time, comme on dit ."
+                </div>
+                <div class="comments-avatar">
+                    <div class="media-body">
+                        <div class="commens-name">
+                            Brigitte Lances
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4">
+                <div class="bubble">
+                    "Soone donne un coups de jeune aux applications de rencontres."
+                </div>
+                <div class="comments-avatar">
+                    <div class="media-body">
+                        <div class="commens-name">
+                            Michel Jacquefils
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</section>
+
+
+<section id="prix" class="pricing">
+    <div class="container">
+        <div class="row m-b-lg">
+            <div class="col-lg-12 text-center">
+                <div class="sooneColor-line"></div>
+                <h1>Tarifs</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-2"></div>
+
+            <div class="col-lg-4 wow zoomIn">
+                <ul class="pricing-plan list-unstyled">
+                    <li class="pricing-title">
+                        Classique
+                    </li>
+                    <li class="pricing-desc">
+                        Pour les utilisateurs standards souhaitant tester les fonctionalités basiques de Soone, et faire quelque rencontres
+                    </li>
+                    <li class="pricing-price">
+                        <span>GRATUIT</span>
+                    </li>
+                    <li>
+                        Rencontre instantanée
+                    </li>
+                    <li>
+                        Rencontre "Room"
+                    </li>
+                    <li>
+                        Messagerie instantanée
+                    </li>
+                </ul>
+            </div>
+
+
+
+            <div class="col-lg-4 wow zoomIn">
+                <ul class="pricing-plan list-unstyled">
+                    <li class="pricing-title">
+                        Premium
+                    </li>
+                    <li class="pricing-desc">
+                        Pour les utilisateurs souhaitant profiter pleinement de l'integralité des fonctionalités offertes par Soone.
+                    </li>
+                    <li class="pricing-price">
+                        <span>9,99€</span> / mois
+                    </li>
+                    <li>
+                        Rencontre instantanée
+                    </li>
+                    <li>
+                        Rencontre "Room"
+                    </li>
+                    <li>
+                        Messagerie instantanée
+                    </li>
+                    <li>
+                        Pas de pub
+                    </li>
+                    <li>
+                        Creation de salles de rencontre
+                    </li>
+                    <li>
+                        Parametrage de géolocalisation
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-lg-2"></div>
+        </div>
+    </div>
+
+</section>
+
+<section id="contact" class="gray-section contact">
+    <div class="container">
+        <div class="row m-b-lg">
+            <div class="col-lg-12 text-center">
+                <div class="sooneColor-line"></div>
+                <h1>Nous contacter</h1>
+                <p>Une question? Une idée ? Une suggestion?.<br/>Envoyez-nous un mail !</p>
+            </div>
+        </div>
+        <div class="row m-b-lg">
+            <div class="col-lg-3 col-lg-offset-3">
+                <address>
+                    <strong><span class="sooneColor">Soone Corp</span></strong><br/>
+                    7 Rue Jules Renard<br/>
+                    Alès 30100 - FRANCE<br/>
+                    Tél : (+33) 4 10 20 30 40<br/>
+                    <strong><span class="sooneColor">Mail :</span></strong> contact@soone.fun
+                </address>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <p class="m-t-sm">
+                    Suivez-nous sur nos résaux sociaux
+                </p>
+                <ul class="list-inline social-icon">
+                    <li><a href="#"><i class="fa fa-twitter"></i></a>
+                    </li>
+                    <li><a href="#"><i class="fa fa-facebook"></i></a>
+                    </li>
+                    <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 text-center m-t-lg m-b-lg">
+                <p><strong>&copy; 2018 Soone Corp</strong></p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script src="js/jquery-2.1.1.js"></script>
+<script src="js/pace.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/classie.js"></script>
+<script src="js/cbpAnimatedHeader.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/jasny-bootstrap.min.js"></script>
+<script src="js/soone.js"></script>
+</body>
+</html>
