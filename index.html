@@ -65,15 +65,19 @@
                 <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
                 <h4 class="modal-title">N° de téléphone</h4>
             </div>
-            <div class="modal-body">
-                <p>Afin de recevoir le lien ver l'application, merci de renseigner votre numéro de téléphone</p>
-                <input type="text" class="form-control" data-mask="99 99 99 99 99" placeholder="">
-            </div>
+            <iframe width="0" height="0" border="0" name="dummyframe" id="dummyframe"></iframe>
+            <form action="https://soone.fun:1337/api/sms/advertising" method="post" target="dummyframe">
+                <div class="modal-body">
+                    <p>Afin de recevoir le lien vers l'application, merci de renseigner votre numéro de téléphone</p>
+                    <input name="phoneNumber" id="phoneNumber" type="text" class="form-control" data-mask="33 9 99 99 99 99" placeholder="33 6 10 20 30 40">
+                </div>
 
-            <div class="modal-footer">
-                <button type="button" class="btn btn-white" data-dismiss="modal" onclick="window.location.href='.'">Fermer</button>
-                <button type="button" class="btn btn-primary">Envoyer</button>
-            </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-white" data-dismiss="modal" onclick="window.location.href='.'">Fermer</button>
+                    <button type="submit" class="btn btn-primary">Envoyer</button>
+                </div>
+            </form>
+
         </div>
     </div>
 </div>
@@ -91,10 +95,7 @@
                         Ou pour la vie<br/>
                         Soone<br/>
                     </h1>
-                    <p>Incubateur de rencontre.</p>
-                    <p>
-                        <a class="btn btn-lg btn-primary" href="#" role="button">READ MORE</a>
-                    </p>
+                    <p>Incubateur de rencontre</p>
                 </div>
                 <div class="carousel-image wow zoomIn">
                     <img src="img/phone.png" alt="phone"/>
@@ -108,10 +109,7 @@
             <div class="container">
                 <div class="carousel-caption blank">
                     <h1> <br/> Soon In Love</h1>
-                    <p>Le speed dating au goût du jour.</p>
-                    <p>
-                        <a class="btn btn-lg btn-primary" href="#" role="button">READ MORE</a>
-                    </p>
+                    <p>Le speed dating au goût du jour</p>
                 </div>
             </div>
             <!-- Set background for slide in css -->
@@ -166,7 +164,7 @@
             </div>
             <div>
                 <i class="fa fa-sliders features-icon"></i>
-                <h2>Une exeperience paramétrable</h2>
+                <h2>Une expérience paramétrable</h2>
                 <p>Grace à sa multitude d'option tu peux créer une experience unique qui te resemble.</p>
             </div>
             <div>
@@ -230,7 +228,7 @@
             </div>
             <div class="col-sm-2 wow fadeInRight">
                 <div class="team-member">
-                    <img src="img/avatar2.jpg" class="img-responsive img-circle" alt="">
+                    <img src="img/avatar1.jpg" class="img-responsive img-circle" alt="">
                     <h4><span class="sooneColor">Hugo</span> SERENI</h4>
                     <p>Sysadmin<br/>
                         Database Administrator</p>
